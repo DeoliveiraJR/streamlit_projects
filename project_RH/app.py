@@ -31,7 +31,7 @@ if option:
     # Cria um DataFrame do Pandas para armazenar os dados das análises
     df = pd.DataFrame(
         data if data else {},
-        columns=[
+        columns=[   
             'name',
             'education',
             'skills',
